@@ -21,8 +21,18 @@ git clone https:://github.com/udit1999/Web_Scrap_e-commerce.git
 ```sh
 pip install -r requirements.txt
 ```
-3. Download the selenium webdriver according to your system.([this is only for firefox](https://stackoverflow.com/questions/42204897/how-to-setup-selenium-python-environment-for-firefox))
+3. Download the selenium webdriver(according to your system) and save it on webdriver folder.([this is only for firefox](https://stackoverflow.com/questions/42204897/how-to-setup-selenium-python-environment-for-firefox))
 
+### Usage
 
+1. To get all the product links
+```sh
+  python scrapper.py
+```
+2. To get number of product in each category
+```sh
+  python app.py
+```
 
+The data will be stored in csv file in Data Folder.
 
