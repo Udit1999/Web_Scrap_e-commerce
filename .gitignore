@@ -1,2 +1,3 @@
 *.log
 *.pyc
+bs4env/
